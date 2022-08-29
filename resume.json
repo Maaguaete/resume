@@ -87,6 +87,11 @@
         "fluency": "Intermediate"
     }],
     "interests": [{
+        "name": "Head First Series",
+        "keywords": [
+            "Java", "Object-Oriented Analysis & Design"
+        ]
+    }, {
         "name": "Sports",
         "keywords": [
             "Running", "Home-work-out", "Swimming"
