@@ -29,7 +29,7 @@
     },
     "education": [{
         "institution": "FPT APTECH ACADEMY - Alliance with FPT Education",
-        "area": "Software Development (incomplete)",
+        "area": "Software Development",
         "studyType": "ACCP - Aptech Certified Computer Professional",
         "startDate": "2021-09-30",
         "endDate": "2023-09-30",
@@ -89,7 +89,7 @@
     "interests": [{
         "name": "Head First Series",
         "keywords": [
-            "Java", "Object-Oriented Analysis & Design"
+            "Java 2nd-edition", "Object-Oriented Analysis & Design"
         ]
     }, {
         "name": "Sports",

@@ -20,6 +20,7 @@
         [class*=" icon-"] {
             /* use !important to prevent issues with browser extensions that change fonts */
             font-family: 'icomoon' !important;
+            speak: none;
             font-style: normal;
             font-weight: normal;
             font-variant: normal;
@@ -1148,7 +1149,7 @@
             border-radius: 3px;
             bottom: 0;
             width: 100%;
-            -webkit-transitions: height 1s ease;
+            -webkit-transition: height 1s ease;
         }
         
         .skill-level .skill-progress.beginner {
@@ -1232,7 +1233,8 @@
 
 <body itemscope="itemscope" itemtype="http://schema.org/Person">
     <div class="container-fluid">
-        <div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a>
+        <div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i
+          class="icon-bars"></i><span class="close-icon">&times;</span></a>
             <nav class="floating-nav js-floating-nav">
                 <ul class="list-unstyled">
                     <li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li>
@@ -1246,15 +1248,28 @@
                 </ul>
             </nav>
             <section class="col-md-3 card-wrapper profile-card-wrapper affix">
-                <div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Toan Nguyen" src="https://s.gravatar.com/avatar/9b737b23ebf515f7e702099301f9e6a2?s=100&amp;r=pg&amp;d=mm" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Toan Nguyen</b></h3><h5 class="text-muted" itemprop="jobTitle">Software Development Student</h5></div></span>
-                    <hr/>
+                <div class="card profile-card"><span class="profile-pic-container">
+            <div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100"
+                alt="Toan Nguyen"
+                src="https://avatars.githubusercontent.com/u/65282760?v=4"
+                itemprop="image" /></div>
+            <div class="name-and-profession text-center">
+              <h3 itemprop="name"><b>Toan Nguyen</b></h3>
+              <h5 class="text-muted" itemprop="jobTitle">Software Development Student</h5>
+            </div>
+          </span>
+                    <hr />
                     <div class="contact-details clearfix">
-                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">HCM City, Vietnam</span></div>
+                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">HCM
+                City, Vietnam</span></div>
                         <div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">0908820724</span></div>
-                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:toannguyenannn@gmail.com" itemprop="email">toannguyenannn@gmail.com</a></span></div>
-                        <div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">English</span></div>
+                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a
+                  class="link-disguise" href="mailto:toannguyenannn@gmail.com"
+                  itemprop="email">toannguyenannn@gmail.com</a></span></div>
+                        <div class="detail"><span class="icon" title="Languages I speak"><i
+                  class="icon fs-lg icon-language"></i></span><span class="info">English</span></div>
                     </div>
-                    <hr/>
+                    <hr />
                     <div class="social-links text-center">
                         <div>
                             <a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/toan-nguyen/" target="_blank" data-toggle="tooltip" title="Toan Nguyen on LinkedIn"></a>
@@ -1266,7 +1281,7 @@
             <section class="col-md-9 card-wrapper pull-right">
                 <div class="card background-card">
                     <h4 class="text-uppercase">Background</h4>
-                    <hr/>
+                    <hr />
                     <div class="background-details">
                         <div class="detail" id="about">
                             <div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div>
@@ -1287,7 +1302,8 @@
                                     <li class="card card-nested clearfix">
                                         <div class="content">
                                             <p class="clear-margin relative"><strong>Customer Service Agent</strong>,&nbsp;</p>
-                                            <p class="text-muted"><small><span class="space-right">Jul, 2014 - Jul, 2021</span><span><i class="icon-clock mr-5"></i>7 years</span></small></p>
+                                            <p class="text-muted"><small><span class="space-right">Jul, 2014 - Jul, 2021</span><span><i
+                              class="icon-clock mr-5"></i>7 years</span></small></p>
                                             <div class="mop-wrapper space-bottom">
                                                 <p>As check-in agent that served several international and domestic airlines such as Air-Asia, United Airlines, T-Way Air and Vietjet Air</p>
                                             </div>
@@ -1297,21 +1313,24 @@
                             </div>
                         </div>
                         <div class="detail" id="projects-experience">
-                            <div class="icon"><i class="fs-lg icon-code"></i><span class="mobile-title">Projects Experience</span></div>
+                            <div class="icon"><i class="fs-lg icon-code"></i><span class="mobile-title">Projects Experience</span>
+                            </div>
                             <div class="info">
                                 <h4 class="title text-uppercase">Projects Experience</h4>
                                 <ul class="list-unstyled clear-margin">
                                     <li class="card card-nested clearfix">
                                         <div class="content">
                                             <p class="clear-margin relative"><a href="https://maaguaete.github.io/2109.E0-eProject-Group_5" target="_blank"><strong>Prime Fitness</strong></a></p>
-                                            <p class="text-muted"><small><span class="space-right">Nov, 2021 - Dec, 2021</span><span><i class="icon-clock mr-5"></i>1 month</span></small></p>
+                                            <p class="text-muted"><small><span class="space-right">Nov, 2021 - Dec, 2021</span><span><i
+                              class="icon-clock mr-5"></i>1 month</span></small></p>
                                             <div class="mop-wrapper space-bottom"></div>
                                         </div>
                                     </li>
                                     <li class="card card-nested clearfix">
                                         <div class="content">
                                             <p class="clear-margin relative"><a href="https://github.com/Maaguaete/airfpt" target="_blank"><strong>Air Fpt</strong></a></p>
-                                            <p class="text-muted"><small><span class="space-right">Jun, 2022 - Jul, 2022</span><span><i class="icon-clock mr-5"></i>1 month</span></small></p>
+                                            <p class="text-muted"><small><span class="space-right">Jun, 2022 - Jul, 2022</span><span><i
+                              class="icon-clock mr-5"></i>1 month</span></small></p>
                                             <div class="mop-wrapper space-bottom"></div>
                                         </div>
                                     </li>
@@ -1326,26 +1345,35 @@
                                     <ul class="list-unstyled clear-margin">
                                         <li class="card card-nested card-skills">
                                             <div class="skill-info"><strong>Front-End</strong>
-                                                <div class="space-top labels"><span class="label label-keyword"><p>Html</p>
-</span><span class="label label-keyword"><p>Css</p>
-</span><span class="label label-keyword"><p>Javascript</p>
-</span></div>
+                                                <div class="space-top labels"><span class="label label-keyword">
+                            <p>Html</p>
+                          </span><span class="label label-keyword">
+                            <p>Css</p>
+                          </span><span class="label label-keyword">
+                            <p>Javascript</p>
+                          </span></div>
                                             </div>
                                         </li>
                                         <li class="card card-nested card-skills">
                                             <div class="skill-info"><strong>DBMS</strong>
-                                                <div class="space-top labels"><span class="label label-keyword"><p>MySQL</p>
-</span><span class="label label-keyword"><p>SQL Server</p>
-</span></div>
+                                                <div class="space-top labels"><span class="label label-keyword">
+                            <p>MySQL</p>
+                          </span><span class="label label-keyword">
+                            <p>SQL Server</p>
+                          </span></div>
                                             </div>
                                         </li>
                                         <li class="card card-nested card-skills">
                                             <div class="skill-info"><strong>Back-end</strong>
-                                                <div class="space-top labels"><span class="label label-keyword"><p>Java</p>
-</span><span class="label label-keyword"><p>.Net</p>
-</span><span class="label label-keyword"><p>Php</p>
-</span><span class="label label-keyword"><p>Laravel Fwk</p>
-</span></div>
+                                                <div class="space-top labels"><span class="label label-keyword">
+                            <p>Java</p>
+                          </span><span class="label label-keyword">
+                            <p>.Net</p>
+                          </span><span class="label label-keyword">
+                            <p>Php</p>
+                          </span><span class="label label-keyword">
+                            <p>Laravel Fwk</p>
+                          </span></div>
                                             </div>
                                         </li>
                                     </ul>
@@ -1353,17 +1381,20 @@
                             </div>
                         </div>
                         <div class="detail" id="education">
-                            <div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div>
+                            <div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span>
+                            </div>
                             <div class="info">
                                 <h4 class="title text-uppercase">Education</h4>
                                 <div class="content">
                                     <ul class="list-unstyled clear-margin">
                                         <li class="card card-nested">
                                             <div class="content">
-                                                <p class="clear-margin relative"><strong>Software Development (incomplete), ACCP - Aptech Certified Computer Professional,&nbsp;</strong>FPT APTECH ACADEMY - Alliance with FPT Education</p>
+                                                <p class="clear-margin relative"><strong>Software Development, ACCP - Aptech Certified Computer
+                            Professional,&nbsp;</strong>FPT APTECH ACADEMY - Alliance with FPT Education</p>
                                                 <p class="text-muted"><small>Sep, 2021 - Sep, 2023</small></p><i></i>
-                                                <div class="space-top labels"><span class="label label-keyword"><p>Batch: T1.2109.E0</p>
-</span></div>
+                                                <div class="space-top labels"><span class="label label-keyword">
+                            <p>Batch: T1.2109.E0</p>
+                          </span></div>
                                             </div>
                                         </li>
                                     </ul>
@@ -1378,7 +1409,9 @@
                                     <ul class="list-unstyled clear-margin">
                                         <li class="card card-nested">
                                             <div class="content">
-                                                <p class="clear-margin" itemprop="certificate"><strong><a href="https://freecodecamp.org/certification/maaguaete/responsive-web-design" target="_blank">Responsive Web Design</a>,&nbsp;</strong>freeCodeCamp</p>
+                                                <p class="clear-margin" itemprop="certificate"><strong><a
+                              href="https://freecodecamp.org/certification/maaguaete/responsive-web-design"
+                              target="_blank">Responsive Web Design</a>,&nbsp;</strong>freeCodeCamp</p>
                                                 <p class="text-muted"><small>Issued on: Dec 31, 2021</small></p>
                                             </div>
                                         </li>
@@ -1394,7 +1427,8 @@
                                     <ul class="list-unstyled clear-margin">
                                         <li class="card card-nested">
                                             <div class="content">
-                                                <p class="clear-margin" itemprop="award"><strong>Certificate of Apreciation </strong>,&nbsp;FPT-Aptech Academy</p>
+                                                <p class="clear-margin" itemprop="award"><strong>Certificate of Apreciation
+                          </strong>,&nbsp;FPT-Aptech Academy</p>
                                                 <p class="text-muted"><small>Awarded on: May 25, 2022</small></p>
                                                 <div class="mop-wrapper">
                                                     <p>Top 1 students in the Spring semester of FPT Academy in Ho Chi Minh</p>
@@ -1413,7 +1447,7 @@
                                     <ul class="list-unstyled clear-margin">
                                         <li class="card card-nested">
                                             <p><strong>Head First Series</strong></p>
-                                            <div class="space-top labels"><span class="label label-keyword">Java</span><span class="label label-keyword">Object-Oriented Analysis &amp; Design</span></div>
+                                            <div class="space-top labels"><span class="label label-keyword">Java 2nd-edition</span><span class="label label-keyword">Object-Oriented Analysis &amp; Design</span></div>
                                         </li>
                                         <li class="card card-nested">
                                             <p><strong>Sports</strong></p>
@@ -1421,7 +1455,9 @@
                                         </li>
                                         <li class="card card-nested">
                                             <p><strong>Reading</strong></p>
-                                            <div class="space-top labels"><span class="label label-keyword">Homo Sapien - Yuval Noah Harari</span><span class="label label-keyword">Journey to the East - Nguyen Phong/Baird T.Spalding</span></div>
+                                            <div class="space-top labels"><span class="label label-keyword">Homo Sapien - Yuval Noah
+                          Harari</span><span class="label label-keyword">Journey to the East - Nguyen Phong/Baird
+                          T.Spalding</span></div>
                                         </li>
                                     </ul>
                                 </div>
